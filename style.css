@@ -1,0 +1,40 @@
+/* Custom Styles for Apex Solutions Vitrine Enterprise */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.glass-header {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 30px -10px rgba(56, 189, 248, 0.15);
+}
+
+/* Google Translate Widget Override */
+.goog-te-banner-frame { display: none !important; }
+body { top: 0px !important; }
+.goog-te-gadget-icon { display: none !important; }
+.goog-te-gadget-simple {
+  background-color: rgba(30, 41, 59, 0.8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  padding: 4px 10px !important;
+  border-radius: 9999px !important;
+  color: #fff !important;
+}
+.goog-te-gadget-simple span { color: #fff !important; font-size: 13px !important; }
